@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACB55D4F1EB20318856BBAC6 /* Pods_Sewa_Mobil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C04EBFCEE92FEC7DB6B0055 /* Pods_Sewa_Mobil.framework */; };
+		E135231E206C218F00DD0E6A /* ViewMobil.swift in Sources */ = {isa = PBXBuildFile; fileRef = E135231D206C218F00DD0E6A /* ViewMobil.swift */; };
+		E1352320206C238700DD0E6A /* CellMobil.swift in Sources */ = {isa = PBXBuildFile; fileRef = E135231F206C238700DD0E6A /* CellMobil.swift */; };
+		E1352322206C8E9900DD0E6A /* ViewLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1352321206C8E9900DD0E6A /* ViewLocation.swift */; };
+		E1C2EC8A206A25B60026041A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2EC89206A25B60026041A /* AppDelegate.swift */; };
+		E1C2EC8F206A25B60026041A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C2EC8D206A25B60026041A /* Main.storyboard */; };
+		E1C2EC91206A25B60026041A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C2EC90206A25B60026041A /* Assets.xcassets */; };
+		E1C2EC94206A25B60026041A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C2EC92206A25B60026041A /* LaunchScreen.storyboard */; };
+		E1C2EC9C206B74D10026041A /* ViewLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2EC9B206B74D10026041A /* ViewLogin.swift */; };
+		E1D791BE2137A65C00BFA724 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1D791BD2137A65B00BFA724 /* GoogleService-Info.plist */; };
+		E1E8016B2071D3D500CC2A53 /* ViewRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E8016A2071D3D500CC2A53 /* ViewRegister.swift */; };
+		E1F5E7C62180950A000E76FC /* app_config.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F5E7C52180950A000E76FC /* app_config.swift */; };
+		E1F5E7CC2180F222000E76FC /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F5E7CA2180F222000E76FC /* SWRevealViewController.m */; };
+		E1F5E7CE2180F466000E76FC /* ViewSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F5E7CD2180F466000E76FC /* ViewSideMenu.swift */; };
+		E1F5E7D02180F61B000E76FC /* CellSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F5E7CF2180F61B000E76FC /* CellSideMenu.swift */; };
+		E1F5E7D321815343000E76FC /* ViewMenuA.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F5E7D221815343000E76FC /* ViewMenuA.swift */; };
+		E1F5E7D521815357000E76FC /* ViewMenuB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F5E7D421815357000E76FC /* ViewMenuB.swift */; };
+		E1F5E7D7218154CC000E76FC /* ViewMenuAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F5E7D6218154CC000E76FC /* ViewMenuAdd.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C04EBFCEE92FEC7DB6B0055 /* Pods_Sewa_Mobil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sewa_Mobil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E8C94BA10424A85DA9D059E /* Pods-Sewa Mobil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sewa Mobil.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sewa Mobil/Pods-Sewa Mobil.debug.xcconfig"; sourceTree = "<group>"; };
+		366DC8CC0006E4DF9C8FB947 /* Pods-Sewa Mobil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sewa Mobil.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sewa Mobil/Pods-Sewa Mobil.release.xcconfig"; sourceTree = "<group>"; };
+		E135231D206C218F00DD0E6A /* ViewMobil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMobil.swift; sourceTree = "<group>"; };
+		E135231F206C238700DD0E6A /* CellMobil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellMobil.swift; sourceTree = "<group>"; };
+		E1352321206C8E9900DD0E6A /* ViewLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLocation.swift; sourceTree = "<group>"; };
+		E1C2EC86206A25B60026041A /* Sewa Mobil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sewa Mobil.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C2EC89206A25B60026041A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1C2EC8E206A25B60026041A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1C2EC90206A25B60026041A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1C2EC93206A25B60026041A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1C2EC95206A25B60026041A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1C2EC9B206B74D10026041A /* ViewLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLogin.swift; sourceTree = "<group>"; };
+		E1D791BD2137A65B00BFA724 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E1E8016A2071D3D500CC2A53 /* ViewRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRegister.swift; sourceTree = "<group>"; };
+		E1F5E7C52180950A000E76FC /* app_config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = app_config.swift; sourceTree = "<group>"; };
+		E1F5E7C92180F221000E76FC /* Sewa Mobil-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sewa Mobil-Bridging-Header.h"; sourceTree = "<group>"; };
+		E1F5E7CA2180F222000E76FC /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		E1F5E7CB2180F222000E76FC /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		E1F5E7CD2180F466000E76FC /* ViewSideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSideMenu.swift; sourceTree = "<group>"; };
+		E1F5E7CF2180F61B000E76FC /* CellSideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellSideMenu.swift; sourceTree = "<group>"; };
+		E1F5E7D221815343000E76FC /* ViewMenuA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMenuA.swift; sourceTree = "<group>"; };
+		E1F5E7D421815357000E76FC /* ViewMenuB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMenuB.swift; sourceTree = "<group>"; };
+		E1F5E7D6218154CC000E76FC /* ViewMenuAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMenuAdd.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1C2EC83206A25B50026041A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB55D4F1EB20318856BBAC6 /* Pods_Sewa_Mobil.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F9CADFE84A23247F8C0CEF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C04EBFCEE92FEC7DB6B0055 /* Pods_Sewa_Mobil.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D10552C80D3BA18AE6B917C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E8C94BA10424A85DA9D059E /* Pods-Sewa Mobil.debug.xcconfig */,
+				366DC8CC0006E4DF9C8FB947 /* Pods-Sewa Mobil.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1C2EC7D206A25B50026041A = {
+			isa = PBXGroup;
+			children = (
+				E1C2EC88206A25B60026041A /* Sewa Mobil */,
+				E1C2EC87206A25B60026041A /* Products */,
+				D10552C80D3BA18AE6B917C8 /* Pods */,
+				4F9CADFE84A23247F8C0CEF4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1C2EC87206A25B60026041A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1C2EC86206A25B60026041A /* Sewa Mobil.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1C2EC88206A25B60026041A /* Sewa Mobil */ = {
+			isa = PBXGroup;
+			children = (
+				E1F5E7C021809422000E76FC /* Assets */,
+				E1F5E7BF218093F3000E76FC /* View */,
+				E1F5E7BE218093ED000E76FC /* Model */,
+				E1F5E7BD218093DF000E76FC /* Controller */,
+				E1C2EC89206A25B60026041A /* AppDelegate.swift */,
+				E1C2EC95206A25B60026041A /* Info.plist */,
+				E1D791BD2137A65B00BFA724 /* GoogleService-Info.plist */,
+			);
+			path = "Sewa Mobil";
+			sourceTree = "<group>";
+		};
+		E1F5E7BD218093DF000E76FC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E1F5E7D121815133000E76FC /* Membuat_TabMenu */,
+				E1F5E7C72180F1CE000E76FC /* Membuat_SideMenu */,
+				E1F5E7C4218094B7000E76FC /* Membuat_Register */,
+				E1F5E7C321809494000E76FC /* Menampilkan_Map */,
+				E1F5E7C22180947F000E76FC /* Mengunakan_TableView */,
+				E1F5E7C12180945F000E76FC /* Membuat_Login */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E1F5E7BE218093ED000E76FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1F5E7C52180950A000E76FC /* app_config.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1F5E7BF218093F3000E76FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1C2EC92206A25B60026041A /* LaunchScreen.storyboard */,
+				E1C2EC8D206A25B60026041A /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1F5E7C021809422000E76FC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E1C2EC90206A25B60026041A /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E1F5E7C12180945F000E76FC /* Membuat_Login */ = {
+			isa = PBXGroup;
+			children = (
+				E1C2EC9B206B74D10026041A /* ViewLogin.swift */,
+			);
+			path = Membuat_Login;
+			sourceTree = "<group>";
+		};
+		E1F5E7C22180947F000E76FC /* Mengunakan_TableView */ = {
+			isa = PBXGroup;
+			children = (
+				E135231F206C238700DD0E6A /* CellMobil.swift */,
+				E135231D206C218F00DD0E6A /* ViewMobil.swift */,
+			);
+			path = Mengunakan_TableView;
+			sourceTree = "<group>";
+		};
+		E1F5E7C321809494000E76FC /* Menampilkan_Map */ = {
+			isa = PBXGroup;
+			children = (
+				E1352321206C8E9900DD0E6A /* ViewLocation.swift */,
+			);
+			path = Menampilkan_Map;
+			sourceTree = "<group>";
+		};
+		E1F5E7C4218094B7000E76FC /* Membuat_Register */ = {
+			isa = PBXGroup;
+			children = (
+				E1E8016A2071D3D500CC2A53 /* ViewRegister.swift */,
+			);
+			path = Membuat_Register;
+			sourceTree = "<group>";
+		};
+		E1F5E7C72180F1CE000E76FC /* Membuat_SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				E1F5E7C82180F20F000E76FC /* SWRevealViewController */,
+				E1F5E7CD2180F466000E76FC /* ViewSideMenu.swift */,
+				E1F5E7CF2180F61B000E76FC /* CellSideMenu.swift */,
+			);
+			path = Membuat_SideMenu;
+			sourceTree = "<group>";
+		};
+		E1F5E7C82180F20F000E76FC /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E1F5E7CB2180F222000E76FC /* SWRevealViewController.h */,
+				E1F5E7CA2180F222000E76FC /* SWRevealViewController.m */,
+				E1F5E7C92180F221000E76FC /* Sewa Mobil-Bridging-Header.h */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		E1F5E7D121815133000E76FC /* Membuat_TabMenu */ = {
+			isa = PBXGroup;
+			children = (
+				E1F5E7D221815343000E76FC /* ViewMenuA.swift */,
+				E1F5E7D421815357000E76FC /* ViewMenuB.swift */,
+				E1F5E7D6218154CC000E76FC /* ViewMenuAdd.swift */,
+			);
+			path = Membuat_TabMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1C2EC85206A25B50026041A /* Sewa Mobil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1C2EC98206A25B60026041A /* Build configuration list for PBXNativeTarget "Sewa Mobil" */;
+			buildPhases = (
+				E1BF136AB99617AB9DEBA9B3 /* [CP] Check Pods Manifest.lock */,
+				E1C2EC82206A25B50026041A /* Sources */,
+				E1C2EC83206A25B50026041A /* Frameworks */,
+				E1C2EC84206A25B50026041A /* Resources */,
+				97D27C19175FEC8C6AB7B4DA /* [CP] Embed Pods Frameworks */,
+				E845E53A9DDDE42762AC2DE8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sewa Mobil";
+			productName = "Sewa Mobil";
+			productReference = E1C2EC86206A25B60026041A /* Sewa Mobil.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1C2EC7E206A25B50026041A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Handoyo;
+				TargetAttributes = {
+					E1C2EC85206A25B50026041A = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E1C2EC81206A25B50026041A /* Build configuration list for PBXProject "Sewa Mobil" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1C2EC7D206A25B50026041A;
+			productRefGroup = E1C2EC87206A25B60026041A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1C2EC85206A25B50026041A /* Sewa Mobil */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1C2EC84206A25B50026041A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C2EC94206A25B60026041A /* LaunchScreen.storyboard in Resources */,
+				E1D791BE2137A65C00BFA724 /* GoogleService-Info.plist in Resources */,
+				E1C2EC91206A25B60026041A /* Assets.xcassets in Resources */,
+				E1C2EC8F206A25B60026041A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		97D27C19175FEC8C6AB7B4DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Sewa Mobil/Pods-Sewa Mobil-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sewa Mobil/Pods-Sewa Mobil-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1BF136AB99617AB9DEBA9B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sewa Mobil-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E845E53A9DDDE42762AC2DE8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Sewa Mobil/Pods-Sewa Mobil-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sewa Mobil/Pods-Sewa Mobil-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1C2EC82206A25B50026041A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E135231E206C218F00DD0E6A /* ViewMobil.swift in Sources */,
+				E1F5E7C62180950A000E76FC /* app_config.swift in Sources */,
+				E1F5E7D7218154CC000E76FC /* ViewMenuAdd.swift in Sources */,
+				E1352320206C238700DD0E6A /* CellMobil.swift in Sources */,
+				E1F5E7CC2180F222000E76FC /* SWRevealViewController.m in Sources */,
+				E1F5E7D321815343000E76FC /* ViewMenuA.swift in Sources */,
+				E1E8016B2071D3D500CC2A53 /* ViewRegister.swift in Sources */,
+				E1F5E7CE2180F466000E76FC /* ViewSideMenu.swift in Sources */,
+				E1C2EC9C206B74D10026041A /* ViewLogin.swift in Sources */,
+				E1F5E7D521815357000E76FC /* ViewMenuB.swift in Sources */,
+				E1F5E7D02180F61B000E76FC /* CellSideMenu.swift in Sources */,
+				E1C2EC8A206A25B60026041A /* AppDelegate.swift in Sources */,
+				E1352322206C8E9900DD0E6A /* ViewLocation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1C2EC8D206A25B60026041A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1C2EC8E206A25B60026041A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1C2EC92206A25B60026041A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1C2EC93206A25B60026041A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1C2EC96206A25B60026041A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1C2EC97206A25B60026041A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1C2EC99206A25B60026041A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E8C94BA10424A85DA9D059E /* Pods-Sewa Mobil.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M87M986VAV;
+				INFOPLIST_FILE = "Sewa Mobil/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.handoyo.Sewa-Mobil";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sewa Mobil/Controller/Membuat_SideMenu/SWRevealViewController/Sewa Mobil-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1C2EC9A206A25B60026041A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 366DC8CC0006E4DF9C8FB947 /* Pods-Sewa Mobil.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M87M986VAV;
+				INFOPLIST_FILE = "Sewa Mobil/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.handoyo.Sewa-Mobil";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sewa Mobil/Controller/Membuat_SideMenu/SWRevealViewController/Sewa Mobil-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1C2EC81206A25B50026041A /* Build configuration list for PBXProject "Sewa Mobil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C2EC96206A25B60026041A /* Debug */,
+				E1C2EC97206A25B60026041A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1C2EC98206A25B60026041A /* Build configuration list for PBXNativeTarget "Sewa Mobil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C2EC99206A25B60026041A /* Debug */,
+				E1C2EC9A206A25B60026041A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1C2EC7E206A25B50026041A /* Project object */;
+}
